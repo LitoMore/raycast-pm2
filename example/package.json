@@ -26,6 +26,7 @@
 		"@types/react": "18.2.27"
 	},
 	"scripts": {
+		"build": "ray build -e dist",
 		"dev": "ray develop"
 	}
 }
