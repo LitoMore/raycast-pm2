@@ -47,7 +47,27 @@ runPm2Command(
 
 #### commandOptions
 
-Options for running PM2 command. Possible commands are `start`, `stop`, `restart`, `reload`, and `delete`.
+##### command
+
+Type: `"start" | "stop" | "restart" | "reload" | "delete"`
+
+##### options
+
+Type: `StartOptions | Pm2Process`
+
+Options for running the [`pm2.start()`](https://pm2.keymetrics.io/docs/usage/pm2-api/#pm2startprocess-fn),
+[`pm2.stop()`](https://pm2.keymetrics.io/docs/usage/pm2-api/#pm2stopprocess-fn),
+[`pm2.restart()`](https://pm2.keymetrics.io/docs/usage/pm2-api/#pm2restartprocess-fn),
+[`pm2.reload()`](https://pm2.keymetrics.io/docs/usage/pm2-api/#pm2reloadprocess-fn),
+and [`pm2.delete()`](https://pm2.keymetrics.io/docs/usage/pm2-api/#pm2deleteprocess-fn).
+
+##### RuntimeOptions
+
+Type: `RuntimeOptions`
+
+Optional. Use this option for specifying the runtime properties.
+The `nodePath` defaults to Raycast's Node.js `process.execPath`.
+The default `nodePath` can be changed from extension configuration.
 
 #### launchOptions
 
