@@ -67,6 +67,7 @@ Optional. Same as the `raycast-cross-extension`'s [`callbackOptions`](https://gi
 ## Related
 
 - [Raycast PM2](https://raycast.com/litomore/pm2) - Manage even run your Node.js processes through Raycast
+- [Raycast Cross-Extension Conventions][raycast-cross-extension-link] - Defines the development approach for cross-extension in Raycast
 
 ## License
 
