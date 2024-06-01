@@ -62,7 +62,7 @@ Optional. Options for launch the target command. It has default values for launc
 
 #### callbackOptions
 
-Same as the `raycast-cross-extension`'s [`callbackOptions`](https://github.com/LitoMore/raycast-cross-extension-conventions?tab=readme-ov-file#callbackoptions).
+Optional. Same as the `raycast-cross-extension`'s [`callbackOptions`](https://github.com/LitoMore/raycast-cross-extension-conventions?tab=readme-ov-file#callbackoptions).
 
 ## Related
 
