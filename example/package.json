@@ -1,0 +1,31 @@
+{
+	"$schema": "https://www.raycast.com/schemas/extension.json",
+	"name": "raycats-pm2-test",
+	"title": "Raycats PM2 Test",
+	"description": "Test cases for the most common usage of the utils",
+	"icon": "raycast-pm2-test-icon.png",
+	"author": "LitoMore",
+	"crossExtensions": [
+		"litomore/pm2"
+	],
+	"license": "MIT",
+	"commands": [
+		{
+			"name": "runPm2Command",
+			"title": "Run PM2 Command",
+			"description": "Run a PM2 command",
+			"mode": "no-view"
+		}
+	],
+	"dependencies": {
+		"@raycast/api": "^1.75.2",
+		"raycast-pm2": "file:../"
+	},
+	"devDependencies": {
+		"@types/node": "20.8.10",
+		"@types/react": "18.2.27"
+	},
+	"scripts": {
+		"dev": "ray develop"
+	}
+}
