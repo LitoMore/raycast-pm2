@@ -61,14 +61,6 @@ Options for running the [`pm2.start()`](https://pm2.keymetrics.io/docs/usage/pm2
 [`pm2.reload()`](https://pm2.keymetrics.io/docs/usage/pm2-api/#pm2reloadprocess-fn),
 and [`pm2.delete()`](https://pm2.keymetrics.io/docs/usage/pm2-api/#pm2deleteprocess-fn).
 
-##### RuntimeOptions
-
-Type: `RuntimeOptions`
-
-Optional. Use this option for specifying the runtime properties.
-The `nodePath` defaults to Raycast's Node.js `process.execPath`.
-The default `nodePath` can be changed from extension configuration.
-
 #### launchOptions
 
 Type: `Partial<LaunchOptions>`

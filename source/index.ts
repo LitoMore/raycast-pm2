@@ -4,13 +4,12 @@ import {
 	LaunchOptions,
 	crossLaunchCommand,
 } from 'raycast-cross-extension';
-import {Pm2Command, Pm2Process, RuntimeOptions, StartOptions} from './types.js';
+import {Pm2Command, Pm2Process, StartOptions} from './types.js';
 
 export async function runPm2Command(
 	commandOptions: {
 		command: 'start';
 		options: StartOptions | Pm2Process;
-		runtimeOptions?: RuntimeOptions;
 	},
 	LaunchOptions?: Partial<LaunchOptions>,
 	callbackOptions?: CallbackLaunchOptions,
@@ -20,7 +19,6 @@ export async function runPm2Command(
 	commandOptions: {
 		command: Exclude<Pm2Command, 'start'>;
 		options: Pm2Process;
-		runtimeOptions?: RuntimeOptions;
 	},
 	launchOptions?: Partial<LaunchOptions>,
 	callbackOptions?: CallbackLaunchOptions,
@@ -30,7 +28,6 @@ export async function runPm2Command(
 	commandOptions: {
 		command: Pm2Command;
 		options: StartOptions | Pm2Process;
-		runtimeOptions?: RuntimeOptions;
 	},
 	launchOptions?: Partial<LaunchOptions>,
 	callbackOptions?: CallbackLaunchOptions,
@@ -46,7 +43,6 @@ export async function runPm2Command(
 				...launchOptions?.context,
 				command: commandOptions.command,
 				options: commandOptions.options,
-				runtimeOptions: commandOptions.runtimeOptions,
 			},
 		},
 		callbackOptions,
