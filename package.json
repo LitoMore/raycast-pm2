@@ -1,6 +1,6 @@
 {
 	"name": "raycast-pm2",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "PM2 utilities for Raycast Extensions",
 	"main": "distribution/index.js",
 	"types": "distribution",
