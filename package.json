@@ -24,14 +24,14 @@
 		"@raycast/api": ">=1"
 	},
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "^5.0.0",
-		"@types/node": "^20.12.12",
-		"del-cli": "^5.1.0",
-		"typescript": "^5.4.5",
-		"xo": "^0.58.0"
+		"@sindresorhus/tsconfig": "^7.0.0",
+		"@types/node": "^22.13.11",
+		"del-cli": "^6.0.0",
+		"typescript": "^5.8.2",
+		"xo": "^0.60.0"
 	},
 	"dependencies": {
-		"pm2": "^5.4.0",
-		"raycast-cross-extension": "^0.2.2"
+		"pm2": "^6.0.5",
+		"raycast-cross-extension": "^0.2.3"
 	}
 }
