@@ -1,10 +1,10 @@
 import {LaunchType} from '@raycast/api';
 import {
-	CallbackLaunchOptions,
-	LaunchOptions,
+	type CallbackLaunchOptions,
+	type LaunchOptions,
 	crossLaunchCommand,
 } from 'raycast-cross-extension';
-import {Pm2Command, Pm2Process, StartOptions} from './types.js';
+import type {Pm2Command, Pm2Process, StartOptions} from './types.js';
 
 export async function runPm2Command(
 	commandOptions: {
@@ -49,4 +49,4 @@ export async function runPm2Command(
 	);
 }
 
-export * from './types.js';
+export type * from './types.js';

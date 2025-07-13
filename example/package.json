@@ -11,7 +11,7 @@
 	"license": "MIT",
 	"commands": [
 		{
-			"name": "runPm2Command",
+			"name": "run-pm2-command",
 			"title": "Run PM2 Command",
 			"description": "Run a PM2 command",
 			"mode": "no-view"
